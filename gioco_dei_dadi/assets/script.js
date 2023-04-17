@@ -10,4 +10,11 @@ console.log(player)
 const computer = Math.round(Math.random () * 5)+ 1;
 console.log(computer)
 
+if(player > computer){
+    console.log('player win');
+}else if(player < computer){
+    console.log('player lose');
+}else if(player == computer)
+    console.log('parity');
+
 
