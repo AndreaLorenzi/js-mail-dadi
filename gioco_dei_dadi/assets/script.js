@@ -14,7 +14,9 @@ if(player > computer){
     console.log('player win');
 }else if(player < computer){
     console.log('player lose');
-}else if(player == computer)
-    console.log('parity');
+}else{
+   console.log('parity'); 
+}
+    
 
 
